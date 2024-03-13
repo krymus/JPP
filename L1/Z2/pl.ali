@@ -1,0 +1,62 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+
+U pl%b			pl.adb			887bbffd NE OO PK
+
+U pl%s			pl.ads			cacceea3 EE NE OO PK
+
+D pl.ads		20240303114834 cacceea3 pl%s
+D pl.adb		20240303130029 42b7515e pl%b
+D system.ads		20200819050647 085b6ffb system%s
+G a e
+G c Z s b [factorial pl 14 18 none]
+G c Z s b [gcd pl 16 18 none]
+G c Z s b [dio pl 17 18 none]
+G c Z s s [pairIP pl 3 14 none]
+G c Z s s [solutionIP pl 8 14 none]
+X 1 pl.ads
+1K9*pL 19l5 19e7 2|1b14 92l5 92t7
+3R14*Pair 6e19 2|32r37
+4i7*First{integer} 2|46m16 54m12 61r29
+5i7*Second{integer} 2|47m16 55m12 61r42
+8R14*Solution 12e19 17r48 2|71r43 73r14
+9b11*Valid{boolean} 2|79m16 84m16
+10i7*First{integer} 2|80m16 85m16
+11i7*Second{integer} 2|81m16 86m16
+14V18*Factorial{integer} 14>28 2|3b14 10l9 10t18
+14i28 N{integer} 2|3b24 6r23
+16V18*GCD{integer} 16>22 16>24 2|12b14 23l9 23t12
+16i22 A{integer} 2|12b18 14r25
+16i24 B{integer} 2|12b21 15r25
+17V18*DIO{8R14} 17>22 17>25 17>28 2|71b13 89l9 89t12
+17i22 a{integer} 2|71b17 76r22
+17i25 b{integer} 2|71b20 76r25
+17i28 c{integer} 2|71b23 78r8 85r37 86r37
+X 2 pl.adb
+4i9 Result{integer} 7m13 7r23 9r16
+6i13 I{integer} 7r32
+13i9 Temp{integer} 18m13 20r19
+14i9 A1{integer} 19r19 20m13 22r16
+15i9 B1{integer} 17r15 18r21 19m13 19r26
+25R6 Triple 29e11 34r45 41r13 72r9
+26i7*First{integer} 65m12 78r16 85r43 86r43
+27i7*Second{integer} 66m12 85r27
+28i7*Third{integer} 67m12 86r28
+32A6 Pair_Array(1|3R14)<integer> 42r10
+34V10 ExtendedGCD{25R6} 34b10 34>22 34>25 69l5 69t16 76s10
+34i22 a{integer} 35r20
+34i25 b{integer} 36r20
+35i4 A1{integer} 46r25 48r17 49m9 54r21 65r21
+36i4 B1{integer} 45r11 47r26 49r15 50m9 50r24 55r22
+37i4 I{integer} 46r13 47r13 51m9 51r14 54r9 55r9 56m5 56r10 58r11 61r26 61r39
+. 62m9 62r14
+38i4 X{integer} 59r17 60m9 66r22
+39i4 Y{integer} 60r14 61m9 61r52 67r21
+40i4 TEMP{integer} 48m9 50r15 59m9 61r14
+41r4 result{25R6} 65m5 66m5 67m5 68r12
+42a4 arr{32A6} 46m9 47m9 54m5 55m5 61r22 61r35
+72r5 G{25R6} 76m5 78r14 85r25 85r41 86r26 86r41
+73r5 result{1|8R14} 79m9 80m9 81m9 82r16 84m9 85m9 86m9 87r16
+

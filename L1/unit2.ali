@@ -1,0 +1,20 @@
+V "GNAT Lib v2020"
+P ZX
+
+RN
+
+U unit2%b		unit2.adb		7afb66bd NE OO PK
+
+U unit2%s		unit2.ads		c69610f0 EE NE OO PK
+
+D system.ads		20200819050647 085b6ffb system%s
+D unit2.ads		20240304230508 c69610f0 unit2%s
+D unit2.adb		20240304230521 bc6d764d unit2%b
+G a e
+G c Z s b [sub unit2 3 13 none]
+X 2 unit2.ads
+2K9*Unit2 5l5 5e10 3|2b14 7l5 7t10
+3V13*Sub{integer} 3>18 3>21 4i<c,sub>22 3|3b13 6l8 6t11
+3i18 A{integer} 3|3b18 5r14
+3i21 B{integer} 3|3b21 5r18
+

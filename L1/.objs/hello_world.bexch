@@ -1,0 +1,17 @@
+[GENERATED OBJECT FILE]
+b__hello_world.o
+[PROJECT FILES]
+/Users/krystian/Documents/Języki i Paradygmaty Programowania/L1/z200/hello_world.gpr
+20240304224653 3cc25ff677d5e054b8eea0bdedd87c28
+[BOUND OBJECT FILES]
+/Users/krystian/Documents/Języki i Paradygmaty Programowania/L1/z200/.objs/hello_world.o
+[GENERATED SOURCE FILES]
+b__hello_world.ads
+b__hello_world.adb
+b__hello_world.ali
+[RESULTING OPTIONS]
+-L/Users/krystian/Documents/Języki i Paradygmaty Programowania/L1/z200/.objs/
+-L/Users/krystian/Documents/Języki i Paradygmaty Programowania/L1/z200/.objs/
+-L/users/krystian/opt/gnat/2020/lib/gcc/x86_64-apple-darwin17.7.0/8.4.1/adalib/
+-static
+/users/krystian/opt/gnat/2020/lib/gcc/x86_64-apple-darwin17.7.0/8.4.1/adalib/libgnat.a

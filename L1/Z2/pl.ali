@@ -1,4 +1,4 @@
-V "GNAT Lib v2020"
+V "GNAT Lib v12"
 P ZX
 
 RN
@@ -7,9 +7,9 @@ U pl%b			pl.adb			887bbffd NE OO PK
 
 U pl%s			pl.ads			cacceea3 EE NE OO PK
 
-D pl.ads		20240303114834 cacceea3 pl%s
-D pl.adb		20240303130029 42b7515e pl%b
-D system.ads		20200819050647 085b6ffb system%s
+D pl.ads		20240313143138 cacceea3 pl%s
+D pl.adb		20240313143138 42b7515e pl%b
+D system.ads		20230508121439 532fc697 system%s
 G a e
 G c Z s b [factorial pl 14 18 none]
 G c Z s b [gcd pl 16 18 none]

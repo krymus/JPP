@@ -1,0 +1,6 @@
+gnatmake pl.adb
+gnatmake mainl.adb
+gnatbing mainl.ali
+gnatlink mainl.ali
+./mainl
+

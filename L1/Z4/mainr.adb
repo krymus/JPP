@@ -1,12 +1,12 @@
 with Ada.Text_IO; use Ada.Text_IO;
-with pL;
+with pR;
 
-procedure MainL is
-   use pL;
+procedure Main is
+   use pR;
 
-   I : Integer := Factorial(7);
+   I : Integer := Factorial(3);
    J : Integer := GCD(12, 18);
-   S : Solution := DIO(13,5,1);
+   S : Solution := DIO(13,5,2);
 begin
    Put_Line (Integer'Image(I));
    Put_Line (Integer'Image(J));
@@ -15,5 +15,5 @@ begin
    else
       Put_Line(Integer'Image(S.First) & " " & Integer'Image(S.Second));
    end if;
-end MainL;
+end Main;
 

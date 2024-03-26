@@ -4,9 +4,9 @@ P ZX
 RN
 RV NO_RECURSION
 
-U pr%b			pr.adb			56a676e9 NE OO PK
+U pr%b			pr.adb			50e46f77 NE OO PK
 
-U pr%s			pr.ads			cb449466 EE NE OO PK
+U pr%s			pr.ads			cd068df8 EE NE OO PK
 W interfaces%s		interfac.ads		interfac.ali
 W interfaces.c%s	i-c.adb			i-c.ali
 
@@ -14,7 +14,7 @@ D ada.ads		20230508121439 76789da1 ada%s
 D a-unccon.ads		20230508121439 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20230508121439 edec285f interfaces%s
 D i-c.ads		20230508121439 2284bf7c interfaces.c%s
-D pr.ads		20240313143138 e9c02b1a pr%s
+D pr.ads		20240314214916 ef823284 pr%s
 D pr.adb		20240313143138 bf665df3 pr%b
 D system.ads		20230508121439 532fc697 system%s
 D s-exctab.ads		20230508121439 91bef6ef system.exception_table%s
@@ -22,7 +22,7 @@ D s-parame.ads		20230508121439 d494a4a6 system.parameters%s
 D s-stalib.ads		20230508121439 1c9580f6 system.standard_library%s
 G a e
 G c Z s b [factorial pr 16 18 none]
-G c Z s b [gcd pr 19 18 none]
+G c Z s b [gcd pr 18 18 none]
 G c Z s b [dio pr 20 18 none]
 G c Z s s [pairIP pr 5 14 none]
 G c Z s s [solutionIP pr 10 14 none]
@@ -34,7 +34,7 @@ X 3 interfac.ads
 X 4 i-c.ads
 29K20*C 595e17 5|1w17 1r35
 X 5 pr.ads
-3K9*pR 22l5 22e7 6|1b14 71l5 71t7
+3K9*pR 26l5 26e7 6|1b14 71l5 71t7
 5R14*Pair 8e19 6|28r41
 6i7*First{integer}
 7i7*Second{integer}
@@ -42,12 +42,12 @@ X 5 pr.ads
 11b11*Valid{boolean} 6|58m16 63m16
 12i7*First{integer} 6|59m16 64m16
 13i7*Second{integer} 6|60m16 65m16
-16V18*Factorial{integer} 16>28 6|3b14 8s22 10l9 10t18
+16V18*Factorial{integer} 16>28 22i<c,Factorial>27 6|3b14 8s22 10l9 10t18
 16i28 N{integer} 6|3b24 5r12 8r20 8r32
-19V18*GCD{integer} 19>22 19>24 6|12b14 17s20 19l9 19t12
-19i22 A{integer} 6|12b18 15r20 17r27
-19i24 B{integer} 6|12b21 14r12 17r24 17r33
-20V18*DIO{10R14} 20>22 20>25 20>28 6|50b13 68l9 68t12
+18V18*GCD{integer} 18>22 18>24 23i<c,GCD>27 6|12b14 17s20 19l9 19t12
+18i22 A{integer} 6|12b18 15r20 17r27
+18i24 B{integer} 6|12b21 14r12 17r24 17r33
+20V18*DIO{10R14} 20>22 20>25 20>28 24i<c,DIO>27 6|50b13 68l9 68t12
 20i22 a{integer} 6|50b17 55r22
 20i25 b{integer} 6|50b20 55r25
 20i28 c{integer} 6|50b23 57r8 64r37 65r37

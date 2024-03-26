@@ -6,12 +6,13 @@ RN
 RV NO_IO
 RV NO_DYNAMIC_SIZED_OBJECTS
 
-U mainl%b		mainl.adb		9349c7c1 NE OO SU
+U main%b		main.adb		b33b6dcf NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
-W pl%s			pl.adb			pl.ali
-Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
 D ada.ads		20230508121439 76789da1 ada%s
@@ -26,10 +27,11 @@ D a-textio.ads		20230508121439 deada98a ada.text_io%s
 D a-unccon.ads		20230508121439 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20230508121439 edec285f interfaces%s
 D i-cstrea.ads		20230508121439 e53d8b8e interfaces.c_streams%s
-D mainl.adb		20240313205544 872880e8 mainl%b
-D pl.ads		20240313143138 cacceea3 pl%s
+D main.adb		20240317231122 6d96c445 main%b
 D system.ads		20230508121439 532fc697 system%s
-D s-conca3.ads		20230508121439 9078e860 system.concat_3%s
+D s-conca4.ads		20230508121439 d29d9dac system.concat_4%s
+D s-conca5.ads		20230508121439 47259367 system.concat_5%s
+D s-conca6.ads		20230508121439 c726e2e8 system.concat_6%s
 D s-crtl.ads		20230508121439 8a0692f8 system.crtl%s
 D s-exctab.ads		20230508121439 91bef6ef system.exception_table%s
 D s-ficobl.ads		20230508121439 dc5161d4 system.file_control_block%s
@@ -48,27 +50,32 @@ D s-unstyp.ads		20230508121439 fa2a7f59 system.unsigned_types%s
 D s-wchcon.ads		20230508121439 d9032363 system.wch_con%s
 D unchconv.ads		20230508121439 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [mainl standard 4 11 none]
-G r c none [mainl standard 4 11 none] [factorial pl 14 18 none]
-G r c none [mainl standard 4 11 none] [gcd pl 16 18 none]
-G r c none [mainl standard 4 11 none] [dio pl 17 18 none]
+G c Z b b [main standard 4 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 13|1r6 1r23
+16K9*Ada 20e8 13|1r6 2r5
 X 9 a-textio.ads
-58K13*Text_IO 727e16 13|1w10 1r27
-507U14*Put_Line 13|11s4 12s4 14s7 16s7
-X 13 mainl.adb
-4U11*MainL 4b11 18l5 18t10
-7i4 I{integer} 11r28
-8i4 J{integer} 12r28
-9r4 S{14|8R14} 13r7 16r30 16r61
-X 14 pl.ads
-1K9*pL 13|2w6 5r8 14|19e7
-8R14*Solution 13|9r8 14|12e19
-9b11*Valid{boolean} 13|13r9
-10i7*First{integer} 13|16r32
-11i7*Second{integer} 13|16r63
-14V18*Factorial{integer} 13|7s19
-16V18*GCD{integer} 13|8s19
-17V18*DIO{8R14} 13|9s20
+58K13*Text_IO 727e16 13|1w10 2r9
+507U14*Put_Line 13|31s4 32s4 33s4 34s4 38s4 40s7 42s7
+X 13 main.adb
+4U11*Main 4b11 45l5 45t9
+6R12 Pair 10e19 18r41 28r8
+7i7 First{integer} 38r52
+8i7 Second{integer} 38r84
+9b7 Valid{boolean} 39r9
+12V13*Factorial{integer} 12>23 13b<c,factorial>22 32s73
+12i23 N{integer}
+15V13*GCD{integer} 15>17 15>19 16b<c,gcd>22 34s96
+15i17 A{integer}
+15i19 B{integer}
+18V13*DIO{6R12} 18>17 18>19 18>21 19b<c,eqDIOFAN>22 36s9
+18i17 A{integer}
+18i19 B{integer}
+18i21 C{integer}
+21i4 N{integer} 32r45 32r83
+22i4 A{integer} 34r39 34r100
+23i4 B{integer} 34r68 34r102
+25i4 A1{integer} 36r13
+26i4 B1{integer} 36r16
+27i4 C1{integer} 36r19
+28r4 P{6R12} 36m4 38r50 38r82 39r7
 

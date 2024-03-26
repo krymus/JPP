@@ -1,0 +1,5 @@
+gcc -c main.c
+gnatmake -c pr.adb
+gnatbind -n pr.ali
+gnatlink pr.ali main.o -o exec
+./exec

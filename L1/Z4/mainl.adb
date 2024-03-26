@@ -1,7 +1,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with pL;
 
-procedure MainL is
+procedure Main is
    use pL;
 
    I : Integer := Factorial(7);
@@ -15,5 +15,5 @@ begin
    else
       Put_Line(Integer'Image(S.First) & " " & Integer'Image(S.Second));
    end if;
-end MainL;
+end Main;
 
